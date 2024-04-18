@@ -19,7 +19,8 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Test with unittest
       run: |
-        python -m coverage run -m unittest --format=total
+        python -m coverage run -m unittest
+        python -m coverage report --format=total
         python -m coverage json -o ./coverage/coverage-summary.json
     - name: Update Coverage Badge
       # GitHub actions: default branch variable
