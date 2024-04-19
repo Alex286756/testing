@@ -1,5 +1,16 @@
 {
   "total": {
-    "lines|statements|functions|branches": "20|40|60|80"
+    "lines": {
+      "pct": 5
+    },
+    "statements": {
+      "pct": 10
+    },
+    "functions": {
+      "pct": 15
+    },
+    "branches": {
+      "pct": 20
+    }
   }
 }
