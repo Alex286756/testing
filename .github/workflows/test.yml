@@ -24,8 +24,8 @@ jobs:
         run: |
           python -m coverage run -m unittest
         #  python -m coverage report --format=total
-        #  python -m coverage json -o ./coverage/coverage-summary.json --pretty-print
-
+          python -m coverage json -o ./coverage/coverage-temp.json
+          python json-convert.py
       - name: Update Coverage Badge
         # GitHub actions: default branch variable
         # https://stackoverflow.com/questions/64781462/github-actions-default-branch-variable
