@@ -1,28 +1,5 @@
 {
   "total": {
-    "lines": {
-      "total": 5,
-      "covered": 1,
-      "skipped": 0,
-      "pct": 20
-    },
-    "statements": {
-      "total": 5,
-      "covered": 2,
-      "skipped": 0,
-      "pct": 40
-    },
-    "functions": {
-      "total": 5,
-      "covered": 3,
-      "skipped": 0,
-      "pct": 60
-    },
-    "branches": {
-      "total": 5,
-      "covered": 4,
-      "skipped": 0,
-      "pct": 80
-    }
+    "lines|statements|functions|branches": "20|40|60|80"
   }
 }
