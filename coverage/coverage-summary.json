@@ -1,7 +1,7 @@
 {
   "total": {
     "lines": {
-      "pct": 98
+      "pct": 0
     },
     "statements": {
       "pct": 0
@@ -10,7 +10,7 @@
       "pct": 0
     },
     "branches": {
-      "pct": 0
+      "pct": 98
     }
   }
 }
