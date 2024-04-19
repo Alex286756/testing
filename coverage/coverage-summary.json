@@ -4,25 +4,25 @@
       "total": 4,
       "covered": 4,
       "skipped": 0,
-      "pct": 100
+      "pct": 20
     },
     "statements": {
       "total": 6,
       "covered": 6,
       "skipped": 0,
-      "pct": 100
+      "pct": 40
     },
     "functions": {
       "total": 4,
       "covered": 4,
       "skipped": 0,
-      "pct": 100
+      "pct": 60
     },
     "branches": {
       "total": 0,
       "covered": 0,
       "skipped": 0,
-      "pct": 100
+      "pct": 80
     }
   }
 }
