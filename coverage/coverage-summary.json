@@ -1,26 +1,26 @@
 {
   "total": {
     "lines": {
-      "total": 4,
-      "covered": 4,
+      "total": 5,
+      "covered": 1,
       "skipped": 0,
       "pct": 20
     },
     "statements": {
-      "total": 6,
-      "covered": 6,
+      "total": 5,
+      "covered": 2,
       "skipped": 0,
       "pct": 40
     },
     "functions": {
-      "total": 4,
-      "covered": 4,
+      "total": 5,
+      "covered": 3,
       "skipped": 0,
       "pct": 60
     },
     "branches": {
-      "total": 0,
-      "covered": 0,
+      "total": 5,
+      "covered": 4,
       "skipped": 0,
       "pct": 80
     }
