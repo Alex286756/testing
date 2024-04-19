@@ -23,8 +23,8 @@ jobs:
       - name: Test with unittest
         run: |
           python -m coverage run -m unittest
-          ; python -m coverage report --format=total
-          ; python -m coverage json -o ./coverage/coverage-summary.json --pretty-print
+        #  python -m coverage report --format=total
+        #  python -m coverage json -o ./coverage/coverage-summary.json --pretty-print
 
       - name: Update Coverage Badge
         # GitHub actions: default branch variable
