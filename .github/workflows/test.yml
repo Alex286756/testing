@@ -19,7 +19,7 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Test with unittest
         run: |
-          if [ -d tests]; then
+          if [ -d tests ]; then
             python -m coverage run -m unittest
             python -m coverage json -o ./coverage/coverage-temp.json
             python json-convert.py
@@ -27,5 +27,5 @@ jobs:
       - name: Update Coverage Badge
         # GitHub actions: default branch variable
         # https://stackoverflow.com/questions/64781462/github-actions-default-branch-variable
-        # if: github.ref =='main'
+        if: ${{ hashFiles('tests') != '' }}
         uses: we-cli/coverage-badge-action@main
