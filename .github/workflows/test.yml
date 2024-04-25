@@ -24,8 +24,8 @@ jobs:
             python -m coverage json -o ./coverage/coverage-temp.json
             python json-convert.py
           fi
-      - name: Update Coverage Badge
+      # - name: Update Coverage Badge
         # GitHub actions: default branch variable
         # https://stackoverflow.com/questions/64781462/github-actions-default-branch-variable
-        if: ${{ hashFiles('test') != '' }}
-        uses: we-cli/coverage-badge-action@main
+        # if: ${{ hashFiles('test') != '' }}
+        # uses: we-cli/coverage-badge-action@main
