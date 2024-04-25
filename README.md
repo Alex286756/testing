@@ -2,5 +2,5 @@
 repo for testing
 
 
-[![cov](coverage.svg)](https://github.com/Alex286756/testing/actions)
+[![cov](https://Alex286756.github.io/testing/badges/coverage.svg)](https://github.com/Alex286756/testing/actions)
 
