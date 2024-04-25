@@ -11,7 +11,7 @@ total = int(float(old_data["totals"]["percent_covered_display"]))
 # data['total'] = data_total
 # with open('./coverage/coverage-summary.json', 'w') as outfile:
 #     json.dump(data, outfile)
-with open('./.github/workflows/coverage.svg', 'w') as svg_file:
+with open('coverage.svg', 'w') as svg_file:
     svg_file.write(f'<svg width="96.3" height="20" viewBox="0 0 963 200" xmlns="http://www.w3.org/2000/svg" '
                    f'role="img" aria-label="coverage: {total}%">\n')
     svg_file.write(f'  <title>coverage: {total}%</title>\n')
